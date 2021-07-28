@@ -3,7 +3,7 @@
 ### Details and Logistics
 * Five day intensive bootcamp to get everyone up to speed with basic computational skills
 * NO other classes, meetings, lab work, lab meetings, etc.
-* [**The Syllabus:**](http://bxlab.github.io/cmdb-bootcamp/syllabus/index.html)
+* [**The Syllabus**](http://bxlab.github.io/cmdb-bootcamp/syllabus/index.html)
 
 #### Instructors
 * Rajiv McCoy, Mike Sauria, & Fred Tan
