@@ -17,3 +17,10 @@ Students will use [GitHub](http://github.com/) to turn in assignments and TAs/in
       * andrew-bortvin
       * rmccoy7541
       * msauria
+      * cutsort
+   * For each username listed above, please follow these steps
+      * From your qbb2021-answers repository, select the “Settings” tab which has a gear icon and is at the end of the line of tabs at the top of the screen.
+      * Then, from the list on the left of the page, click “Manage access”. It should be the second in the list.
+      * Click the green button “Invite a collaborator” 
+      * Search the GitHub username, click it in the dropdown menu, and use the green add button to add the collaborator! :) 
+
