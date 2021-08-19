@@ -15,7 +15,8 @@
 * TAs will be available until 7 pm ET
 
 #### Location
-* Takes place in UTL398
+* Takes place in UTL398 for hybrid in-person students
+* Zoom for remote students
 
 #### Food
 * We will provide lunch
@@ -25,6 +26,9 @@
 
 #### Prep Work
 * [Create a GitHub account and `qbb2021-answers` repository](https://github.com/bxlab/qbb2021/blob/main/resources/join_github.md)
+* Lessons and ungraded assessments
+  * Unix, Python, and GitHub
+  * [See details in this file listing prepwork and resources](https://github.com/bxlab/qbb2021/blob/main/resources/prepwork.md)
 
 ### Course Website Link
 *See the course website for assignments, recordings, and other additional information!*<br />
