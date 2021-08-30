@@ -1,6 +1,6 @@
 # QBB2021 - Day 1 - Evening Exercise
 
-For this assignment we will be working with a [.SAM file](https://samtools.github.io/hts-specs/SAMv1.pdf). SAM files normally begin with header lines which always begin with "@". These are followed by one line per read with the following columns:
+For this assignment we will be working with a [.SAM file](https://samtools.github.io/hts-specs/SAMv1.pdf). SAM files normally begin with header lines which always begin with "@". These are followed by one line per alignment with the following columns:
 
 |Col|Field|Type|Regexp/Range|Brief description|
 |:--|:--|:--|:--|:--|
