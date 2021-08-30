@@ -19,7 +19,7 @@ For this assignment we will be working with a [.SAM file](https://samtools.githu
 You will be working with a subset of reads so your code runs fast and will make debugging easier. First, make the folder `/Users/cmdb/qbb2021-answers/day1-evening`. Now you can use `samtools view` to convert the data from BAM to SAM format, followed by the `head` command to extract the first 10,000 lines.
 
 ```shell
-$ samtools -h /Users/cmdb/data/results/SRR072893.bam | head -n 10000 > /Users/cmdb/qbb2021-answers/day1-evening/SRR072893.sam
+$ samtools view -h /Users/cmdb/data/results/SRR072893.bam | head -n 10000 > /Users/cmdb/qbb2021-answers/day1-evening/SRR072893.sam
 ```
 
 **Basic Exercises**
