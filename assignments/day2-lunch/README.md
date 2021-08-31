@@ -16,9 +16,9 @@ The file we'll be modifying is a `c_tab` file. The `c_tab` file contains informa
 
 Write a python script (in TextMate) that takes in arguments from the command line. Your script should take three arguments: two files, and a third optional argument that will affect how it behaves.
 ​
-  1. The mapping file `qbb2021/data/fly_mapping.txt`
+  1. The mapping file `~/qbb2021/data/fly_mapping.txt`
   2. A `c_tab` file from StringTie
-      * The `c_tab` file you will use for this exercise is `qbb2021/data/SRR072893.t_data.ctab`
+      * The `c_tab` file you will use for this exercise is `~/qbb2021/data/SRR072893.t_data.ctab`
   3. See below concerning this
 ​
 
