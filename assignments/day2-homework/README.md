@@ -38,7 +38,9 @@ Implement a script that finds matching _k_-mers between a single query
 sequence and a database of targets. The matcher should take three
 arguments:
 
-```kmer_matcher.py <target.fa> <query.fa> <k>```
+```
+kmer_matcher.py <target.fa> <query.fa> <k>
+```
 
 Where `target.fa` is the database containing one or more sequences,
 `query.fa` is the sequence to align (assume just one sequnce), and
@@ -48,6 +50,22 @@ The script should find _k_-mer matches and for each write:
 
 ```
 target_sequence_name    target_start    query_start k-mer
+```
+
+At the beginning of your python script, you should include the code below, which will get your query and target sequences with `FASTAReader`. You will not ever need to use `FASTAReader` yourself.
+
+```
+from fasta_reader import FASTAReader
+
+# Load sequences
+target_seqs = FASTAReader(open(target_fname))
+query_seqs = FASTAReader(open(query_fname))
+# We only need the first query sequence
+query_seq = query_seqs[0][1]
+
+# Loop through target_seqs
+for ident, sequence in target_seqs:
+...
 ```
 
 ### Submit
