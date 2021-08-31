@@ -27,7 +27,7 @@ wget https://raw.githubusercontent.com/bxlab/qbb2021/main/assignments/day2-homew
 Then, you should import the function into your homework script using the following:
 
 ```python
-from fasta_reader.py import FASTAReader
+from fasta_reader import FASTAReader
 ```
 
 You would then have access to your `FASTAReader` function.
