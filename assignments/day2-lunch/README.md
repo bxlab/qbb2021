@@ -21,11 +21,13 @@ Write a python script (in TextMate) that takes in arguments from the command lin
       * The `c_tab` file you will use for this exercise is `qbb2021/data/SRR072893.t_data.ctab`
   3. See below concerning this
 ​
+
 Ideally, we'd be able to convert each flybase ID to it's corresponding UniProt ID, HOWEVER, not every flybase ID will be in the mapping file. If the flyabase ID is in the mapping file, your script should print the line from the `c_tab` file, replacing the `gene_id` field with the corresponding `protein_id` from the mapping file (**the UniProt Accession Number**). If the flybase ID is absent, your script should do one of two things depending on the value of the third argument to your function:
 ​
   1. If you do not pass a third argument to your script, then skip that line. For example, you would call your script with `python my_script.py ~/qbb2021/data/fly_mappping.txt ~/qbb2021/data/SRR072893.t_data.ctab`
   2. If you do pass a third argument, then replace the `gene_id` field with the third argument passed to your script. For example, if you call your script with `python my_script.py ~/qbb2021/data/fly_mapping.txt ~/qbb2021/data/SRR072893.t_data.ctab "missing"` then a line with a `gene_id` not present in the mapping file would have the `gene_id` field filled in with "missing".
 ​
+
 **Hint:** recall that you’ll want to import sys at the beginning of your script. sys stores all the command-line arguments you pass to your script in a list called `sys.argv`.<br />
 For example, if you ran a python script on the command line like this:`$ python myscript.py fly_mapping.txt t_data.ctab` <br />
 Then: <br />
