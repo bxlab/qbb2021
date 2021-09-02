@@ -4,8 +4,9 @@
 
 The following exercises build on the plots that we started during the morning session.  Jupyter Notebooks of these plots can be found [here](https://github.com/bxlab/qbb2021/tree/main/assignments/day4-lunch).
 
-To complete these exercises, first create a new directory `/Users/cmdb/qbb2021-answers/day4-lunch`. Inside this directory, create a jupyter notebook for this assignment. Answer each question below by:
+To complete these exercises, first create a new directory `/Users/cmdb/qbb2021-answers/day4-lunch`. Answer each question below by:
 
+- Creating a new Jupyter notebook
 - Using Markdown to create section headers and add narrative about things you found confusing, useful, or interesting. You should also use narrative to document why you did something or what sources you used (like where you found an equation or info about matplotlib functions).
 - Annotate each plot with a title, axis labels, legends, etc. as appropriate.
   - Check out this cool [gallery/cheatsheet](http://bxlab.github.io/cmdb-bootcamp/gallery/README.html) that a former TA made which you may find useful
