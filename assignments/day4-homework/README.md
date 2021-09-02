@@ -9,8 +9,8 @@ Data are taken from Halldorsson, B. V., Palsson, G., Stefansson, O. A., Jonsson,
 1. Read the abstract for this paper to understand the context.
 
 2. Use pandas to load two data tables from this paper, which encode:
-- information about the number and parental origin of each de novo mutation detected in an offspring individual (i.e. "proband") [link](https://www.dropbox.com/s/g47l2r2kmjfzst2/aau1043_dnm.tsv?dl=0)
-- ages of the parents of each proband [link](https://www.dropbox.com/s/vxc4tw1qv7j4s4h/aau1043_parental_age.tsv?dl=0)
+- information about the number and parental origin of each de novo mutation detected in an offspring individual (i.e. "proband") [link](https://www.dropbox.com/s/g47l2r2kmjfzst2/aau1043_dnm.tsv?dl=1)
+- ages of the parents of each proband [link](https://www.dropbox.com/s/vxc4tw1qv7j4s4h/aau1043_parental_age.tsv?dl=1)
 
 3. Count the number of de novo mutations per proband. The `Phase_combined` column records the inferred parent of origin of the de novo mutation. Break the counts of de novo mutations down into maternally inherited, paternally inherited, and total de novo mutations (including of unknown parental origin). Store these counts in a new pandas dataframe with columns: `Proband_id`, `pat_dnm`, `mat_dnm`, `tot_dnm`.
 
