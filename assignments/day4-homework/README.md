@@ -1,4 +1,4 @@
-# QBB2019 - Day 5 - Lunch Exercise
+# QBB2019 - Day 4 - Homework Exercise
 
 ## Human de novo mutations
 
