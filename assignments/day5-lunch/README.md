@@ -2,7 +2,7 @@
 
 ## Instructions
 
-Create a new directory `/Users/cmdb/qbb2021-answers/day5-lunch`. Answer each question below by creating a new Jupyter Notebook for each question. Be sure to:
+Create a new directory `/Users/cmdb/qbb2021-answers/day5-lunch`. Create a new Jupyter Notebook and answer each question in this notebook. Be sure to:
 
 - Use Markdown to create section headers and add narrative about things you found confusing, useful, or interesting.
 - Annotate each plot with a title, axis labels, legends, etc. as appropriate.
