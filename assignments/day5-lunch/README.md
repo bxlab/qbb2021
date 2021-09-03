@@ -10,7 +10,7 @@ Create a new directory `/Users/cmdb/qbb2021-answers/day5-lunch`. Answer each que
 
 ## Exercises
 
-1. Download SNP genotype data that I obtained from the 1000 Genomes Project here:
+1. Using the pandas `read_csv` function, read in this SNP genotype data that I obtained from the 1000 Genomes Project:
 
 https://www.dropbox.com/s/p2ef992kl2jmmis/matrix_1kg.txt?dl=1
 
@@ -25,7 +25,7 @@ Note that these are real data, just subset (to some random markers on chromosome
 
 ## Advanced Exercise
 
-5. Download metadata describing the 1000 Genomes samples here:
+5. Using the pandas `read_csv` function, read in this table with metadata describing the 1000 Genomes samples. Due to some weird table formatting, your pandas dataframe will include two extra columns that you can ignore.
 
 ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/integrated_call_samples_v3.20130502.ALL.panel
 
