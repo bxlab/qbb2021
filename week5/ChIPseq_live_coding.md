@@ -8,7 +8,7 @@ Chen, X et al. (2008), Integration of external signaling pathways with the core 
 The data include ChIP-seq of the transcription factor Oct4 (`oct4.fastq`) in mouse embryonic stem cells, as well as a control sample (`gfp.fastq`). Due to time constraints and since you've mapped reads before, I've already mapped and sorted the reads.
 
 ```bash
-wget https://bx.bio.jhu.edu/data/msauria/cmdb-data/chipseq_data.tgz
+wget https://bx.bio.jhu.edu/data/msauria/cmdb-lab/chipseq_data.tgz
 ```
 
 Unpack the data with `tar xzf chipseq_data.tgz` and you should see two files, `Oct4.bam` and `gfp.bam`.
