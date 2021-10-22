@@ -29,7 +29,7 @@ print('Script name:', sys.argv[0])
 # The rest of the elements of the list are any arguments
 # passed when we run the script in the command line
 
-# print('Arguments passed:', sys.argv[1:])
+print('Arguments passed:', sys.argv[1:])
 
 # Assuming three arguments: match score, mismatch score, and
 # gap penalty, store these arguments as variables we can use
